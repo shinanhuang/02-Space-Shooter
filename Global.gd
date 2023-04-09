@@ -7,11 +7,13 @@ var lives = 0
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
 	randomize()
-	VP = get_viewport().size
+	#VP = get_viewport().size
+	VP = Vector2(2048,1200)
 	var _signal = get_tree().get_root().connect("size_changed",self,"_resize")
+	reset()
 	update_score(0)
 	update_lives(0)
-	reset()
+	
 	
 func reset():
 	score = 0 
@@ -22,7 +24,8 @@ func _unhandled_input(_event):
 		get_tree().quit()
 
 func _resize():
-	VP = get_viewport().size
+	#VP = get_viewport().size
+	pass
 	
 func update_score(s):
 	score += s
@@ -34,6 +37,6 @@ func update_lives(l):
 	lives += l
 	if lives <= 0:
 		var _scene = get_tree().change_scene("res://UI/End_Game.tscn")
-	var Lives = get_node_or_null("/root/Game/UI/HUD/Score")
+	var Lives = get_node_or_null("/root/Game/UI/HUD/Lives")
 	if Lives != null:
 		Lives.text = "Lives: " + str(lives)

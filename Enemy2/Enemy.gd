@@ -29,7 +29,7 @@ func damage(d):
 
 func _on_Timer_timeout():
 	
-	var Player = get_node_or_null("/root/Game/Player_Container/Player")
+	var Player = get_node_or_null("/root/Game/Player_Container2/Player")
 	var Effects = get_node_or_null("/root/Game/Effects")
 	if Player != null and Effects != null:
 		print("shooting")

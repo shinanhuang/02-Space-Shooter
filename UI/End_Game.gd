@@ -2,7 +2,7 @@ extends Control
 
 
 func _ready():
-	$label.text = "Thanks for playing! Your score was" + str(Global.score) + "."
+	$Label.text = "Thanks for playing! Your score was " + str(Global.score) + "."
 	
 
 
