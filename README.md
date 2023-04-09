@@ -1,14 +1,17 @@
 # Project Name
 
-Context and date
+  02-Space-Shooter
 
 Description
-
+  Space-shooter game
+  
 ## Implementation
-Which features you included
+  Which features you included
 
 ## References
 
 ## Future Development
+  Yes
 
-## Created by
+## Created by 
+  Shinan Huang
