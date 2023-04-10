@@ -6,7 +6,11 @@ Description
   Space-shooter game
   
 ## Implementation
-  Which features you included
+ Using Different Assests
+ Implementing Variety of Enemies
+ A Larger World to Explore
+ Background Image
+ Mouse Target
 
 ## References
 
