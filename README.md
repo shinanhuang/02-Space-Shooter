@@ -6,11 +6,11 @@ Description
   Space-shooter game
   
 ## Implementation
- Using Different Assests
- Implementing Variety of Enemies
- A Larger World to Explore
- Background Image
- Mouse Target
+ Using Different Assests;
+ Implementing Variety of Enemies;
+ A Larger World to Explore;
+ Background Image;
+ Mouse Target;
 
 ## References
 
